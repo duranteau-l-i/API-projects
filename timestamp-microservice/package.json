@@ -1,0 +1,16 @@
+{
+  "name": "timestamp",
+  "version": "1.0.0",
+  "description": "freecodecamp timestamp microservices",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "duranteau ludovic",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "moment": "^2.20.1"
+  }
+}
