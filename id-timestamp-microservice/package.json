@@ -1,0 +1,26 @@
+{
+  "name": "id-timestamp-microservice",
+  "version": "0.0.1",
+  "description": "freeCodeCamp timestamp microservice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "duranteau ludovic",
+  "dependencies": {
+    "express": "^4.16.2",
+    "moment": "^2.20.1"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": ""
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
