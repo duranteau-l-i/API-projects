@@ -21,7 +21,7 @@ app.get('/new/:query*', function (req, res) {
   const host = req.get('host');
   let result = url(query, part, host);
   
-  res.render('new', {result: result});
+  res.json(result);
 });
 
 const listener = app.listen(process.env.PORT, function () {

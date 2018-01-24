@@ -16,12 +16,11 @@
       </h1>
     </header>
     
-          <% if (result) { %>
-            <pre> {"original_url": <a href=<%= result.original_url %> >"<%= result.original_url %>"</a>, "short_url": <a href=<%= result.original_url %>>"<%= result.short_url %>"</a>}
-            </pre>
-          <% } else { %>
-            <pre>{"error": "URL invalid"}</pre>
-          <% } %>
+        <% if (result) { %>
+          <pre><%= result %></pre>
+        <% } %>
+
+    <script src="/client.js"></script>
     
   </body>
 </html>

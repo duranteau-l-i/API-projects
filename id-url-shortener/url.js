@@ -3,7 +3,9 @@ function url(query, url, host) {
   const regex = new RegExp(expression);
   
   if(regex.test(url)) {
-    return { "original_url": query + url, "short_url": host };
+    return { "original_url": query + url, "short_url": "https://" + host };
+  } else {
+    return { "error": "URL invalid" }
   }
   
 }
