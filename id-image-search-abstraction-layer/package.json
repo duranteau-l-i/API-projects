@@ -1,0 +1,27 @@
+{
+  "name": "id-image-search-abstraction-layer",
+  "version": "0.0.1",
+  "description": "FreeCodecamp image search abstracted layer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "body-parser": "^1.18.2",
+    "request": "^2.83.0",
+    "mongoose": "^5.0.6"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": ""
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
